@@ -1,0 +1,48 @@
+* {
+    position: relative;
+}
+
+#triangle {
+    width: 230px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(238, 227, 225);
+}
+input::placeholder {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+input {
+    width: 40px;
+}
+#bInput {
+    left: 500px;
+    top: 20px;
+}
+#aInput {
+    left: 500px;
+    bottom: 100px;
+}
+#button {
+    width: 70px;
+    left: 350px;
+}
+#result {
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 360px;
+    bottom: 100px;
+}
+#heading {
+    color: black;
+    text-align: center;
+}

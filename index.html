@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script>
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [
+                        ['$', '$'],
+                        ['\\(', '\\)'],
+                    ],
+                },
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id="heading">Accroding Pythagorean Theroem</h1>
+        <h2>$$ c = {\sqrt{a^2+b^2} }.$$</h2>
+
+        <div id="container">
+            <img
+                id="triangle"
+                alte="triangle"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Triangle.Right.svg/1200px-Triangle.Right.svg.png"
+            />
+            <input placeholder="A" id="aInput" />
+            <input placeholder="B" id="bInput" />
+            <div id="result"></div>
+
+            <button id="button">Calac</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
